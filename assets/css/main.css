@@ -21,7 +21,7 @@ section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 80%;
 	font: inherit;
 	vertical-align: baseline;}
 
@@ -72,6 +72,25 @@ input, select, textarea {
 	appearance: none;
 }
 
+.curiculae {
+	font-weight: bold;
+	line-height: 1.2rem;
+}
+small{
+	font-size: .8rem;
+	font-weight: normal;
+}
+
+.bg_clair {
+background-color: #fcd18b;
+color: #086623 !important;
+}
+
+.bg_sombre {
+	background-color:#086623 ;
+	color: #fcd18b ;
+	}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -116,7 +135,7 @@ input, select, textarea {
 /* Type */
 
 	html {
-		font-size: 18pt;
+		font-size: 17pt;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -160,7 +179,7 @@ input, select, textarea {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 1rem;
 		font-weight: 300;
-		line-height: 1.65;
+		line-height: 1.4;
 	}
 
 	a {
